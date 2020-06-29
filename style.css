@@ -1,0 +1,155 @@
+body {
+    font-family: 'Libre Caslon Display', serif;
+    background-color: black;
+}
+
+.blinking{
+    animation:blinkingText 0.1s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000;}
+    60%{    color: transparent; }
+    99%{    background-image: url("images/backgroundTwo.jpg");  }
+    100%{   color: transparent;  }
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.wrapper {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr); 
+}
+
+.pic {
+    width: 100%;
+    height: 350px;
+    border: 2px solid white ;
+}
+
+.one {
+    background-image: url("images/horrors_pic.png");
+}
+
+.one:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/horrors_pic.png");
+}
+
+.two {
+    background-image: url("images/astro_pic.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.two:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/astro_pic.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.three {
+    background-image: url("images/elder_pic.png");
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+}
+
+.three:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/elder_pic.png");
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+}
+
+.four {
+    background-image: url("images/music_pic.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.four:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/music_pic.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.five {
+    background-image: url("images/melb_pic.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.five:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/melb_pic.png");
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link_text {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 0.5%;
+}
+
+.title {
+    font-size: 400%;
+    border-bottom: 1px solid white;
+    animation: backInDown; 
+    animation-duration: 1s; 
+}
+
+.job {
+    font-size: 250%;
+    color: black;
+    background-color: #fff;
+    padding: 0.5%;
+    animation: backInUp; 
+    animation-duration: 1s; 
+}
+
+.about {
+    font-size: 150%;
+    background-color: black;
+    border-radius: 30%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.linkedin {
+    background-color: #fff;
+    padding: 0.3%;
+}
