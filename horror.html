@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Hundred Horrors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="readme"></p>
+    <a href="https://tomcat-js.github.io/One-Hundred-Horrors/" class="checkit">Check it out!</a>
+    <script>
+        const checkIt = document.querySelector('.checkit'); 
+        const readMe = document.querySelector('.readme');
+        const readmeText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, facere, veniam nobis sit delectus beatae quis eum aut aliquid, nulla aperiam est error cum eius laudantium rerum cupiditate tenetur amet.'
+
+        let i = 0
+
+        function typeWriter() {
+
+            if (i < readmeText.length) { 
+            readMe.textContent += readmeText.charAt(i);
+            i++;
+            setTimeout(typeWriter, 0.5);
+            } 
+
+            if (i === readmeText.length) {
+                checkIt.classList.remove('checkit');
+            }
+        }  
+
+        typeWriter();     
+    </script>
+</body>
+</html>
