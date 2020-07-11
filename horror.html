@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Hundred Horrors</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p class="readme"></p>
-    <a href="https://tomcat-js.github.io/One-Hundred-Horrors/" class="checkit">Check it out!</a>
+    <div class="readme_wrapper">
+        <p class="readme"></p>
+        <a href="https://tomcat-js.github.io/One-Hundred-Horrors/" class="hidden">Check it out!</a>
+    </div>
+    
+   
     <script>
-        const checkIt = document.querySelector('.checkit'); 
+        const hidden = document.querySelector('.hidden'); 
         const readMe = document.querySelector('.readme');
-        const readmeText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, facere, veniam nobis sit delectus beatae quis eum aut aliquid, nulla aperiam est error cum eius laudantium rerum cupiditate tenetur amet.'
+        const readmeText = '“One Hundred Horrors” is an interactive art installation. Click on any of the 100 televisions for some terrifying sights and sounds. Feeling brave?'
 
         let i = 0
 
@@ -21,11 +26,13 @@
             if (i < readmeText.length) { 
             readMe.textContent += readmeText.charAt(i);
             i++;
-            setTimeout(typeWriter, 0.5);
+            setTimeout(typeWriter, 5);
             } 
 
             if (i === readmeText.length) {
-                checkIt.classList.remove('checkit');
+                hidden.classList.add('link_to_app');
+                hidden.classList.remove('hidden');
+
             }
         }  
 

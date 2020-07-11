@@ -47,6 +47,7 @@ main {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/horrors_pic.png");
 }
 
+
 .two {
     background-image: url("images/astro_pic.png");
     background-size: cover;
@@ -157,4 +158,45 @@ a {
 
 .readme {
     color: #fff;
+    font-size: 4rem;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Libre Caslon Display', serif;
+    padding-bottom: 10%;
+}
+
+
+
+.link_to_app {
+    font-size: 4rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.link_to_app:link, .link_to_app:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .link_to_app:hover, .link_to_app:active {
+    background-color: red;
+  }
+
+  .readme_wrapper {
+      text-align: center;
+  }
+
+  @media only screen and (max-device-width: 700px) {
+    .readme {
+        font-size: 2rem;
+    }
+    .link_to_app {
+        font-size: 3rem;
+    }
 }
