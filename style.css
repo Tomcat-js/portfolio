@@ -41,6 +41,12 @@ main {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/covid_pic.png");
 }
 
+.covid:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ), url("images/covid_pic.png");
+}
+
 .one {
     background-image: url("images/horrors_pic.png");
 }
