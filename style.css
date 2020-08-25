@@ -161,6 +161,10 @@ color: white;
 @media only screen  
 and (max-device-width: 700px) {
 
+  #ocean {
+    display: none;
+  }
+
   body {
     background: #fff;
   }
