@@ -20,16 +20,20 @@ $(document).ready(function(){
   });
   
   VANTA.WAVES({
-      el: "#ocean",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0x112d4e
-    })
+    el: "#ocean",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: '#5271ff',
+    shininess: 150.00,
+    waveHeight: 40.00,
+    waveSpeed: 2.00,
+    zoom: 1.49
+  })
   
   const footer = document.querySelector('footer');
   const scrollClick = document.querySelector('.scroll_click');

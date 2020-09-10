@@ -6,10 +6,11 @@
 display: block;
 color: #fff;
 text-decoration: none;
-font-size: 3rem;
+font-size: 6rem;
 animation: fadeIn; 
 animation-duration: 10s;
 }
+
 
 .scroll_click_div {
 margin: 0;
@@ -35,8 +36,6 @@ color: #112d4e;
 
 header {
 text-align: center;
-border-bottom: 2px solid #3f72af;
-background-color: #3f72af;
 color: whitesmoke;
 font-size: 1.7rem;
 }
@@ -44,15 +43,14 @@ font-size: 1.7rem;
 .name {
 margin: 0;
 padding: 2%;
-background: #112d4e;
-
+background: #5271ff;
 }
 
 .job {
 margin: 0;
 padding: 2.5%;
-background: #3f72af;
-background: linear-gradient(180deg, rgba(17,45,78,1) 0%, rgba(47,86,131,1) 14%);
+background: #8c52ff ;
+background: linear-gradient(90deg, rgba(253,120,97,1) 0%, rgba(140,82,255,1) 43%, rgba(253,42,212,1) 100%);
 }
 
 .wrapper {
@@ -83,7 +81,6 @@ text-justify: auto;
 width: 30%;
 display: block;
 margin: 10% auto 0 auto;
-border-radius: 50px;
 }
 
 
@@ -98,7 +95,7 @@ gap: 1%;
 font-size: 2rem;
 padding: 1% 0;
 text-align: center;
-background-color: #112d4e;
+background-color: #5271ff ;
 color: #fff;
 }
 
@@ -145,7 +142,8 @@ position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
-background-color: #112d4e;
+background: #5271ff;
+background: linear-gradient(90deg, rgba(253,120,97,1) 0%, rgba(140,82,255,1) 43%, rgba(253,42,212,1) 100%);
 color: white;
 text-align: center; 
 animation: slideInUp; 
