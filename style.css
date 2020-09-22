@@ -11,6 +11,11 @@ animation: fadeIn;
 animation-duration: 10s;
 }
 
+.scroll_click:hover {
+  color: rgba(253,42,212);
+  /* animation: jello;
+  animation-duration: 10s; */
+}
 
 .scroll_click_div {
 margin: 0;
@@ -49,7 +54,7 @@ background: #5271ff;
 .job {
 margin: 0;
 padding: 2.5%;
-background: #8c52ff ;
+background: #8c52ff;
 background: linear-gradient(90deg, rgba(253,120,97,1) 0%, rgba(140,82,255,1) 43%, rgba(253,42,212,1) 100%);
 }
 
