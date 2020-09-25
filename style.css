@@ -13,8 +13,6 @@ animation-duration: 10s;
 
 .scroll_click:hover {
   color: rgba(253,42,212);
-  /* animation: jello;
-  animation-duration: 10s; */
 }
 
 .scroll_click_div {
@@ -32,7 +30,6 @@ margin: 0;
 font-family: 'Libre Caslon Display', serif;
 font-weight: bold;
 background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(219,226,239,1) 100%);
 }
 
 a {
@@ -202,10 +199,6 @@ and (max-device-width: 700px) {
   .gif {
     height: 300px;
   }
-
-  .invisible {
-    display: block;
-    }
   
   footer {
     font-size: 1rem;
