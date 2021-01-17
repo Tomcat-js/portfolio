@@ -110,6 +110,11 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.gif:hover {
+animation: pulse;
+animation-duration: 0.8s;
+}
+
 .naut {
 width: 70%;
 }
